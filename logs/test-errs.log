@@ -1,0 +1,85 @@
+-- TYPE MISMATCH ---- G:\poli\an3\SEM1\FP\Elm Project\tests\PostsConfigTests.elm
+
+The 1st argument to `filterPosts` is not what I expect:
+
+60|                         |> Config.filterPosts (Config.PostsConfig 50 10 Config.Score True True)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+This `PostsConfig` call produces:
+
+    String -> Time.Posix -> PostsConfig
+
+But `filterPosts` needs the 1st argument to be:
+
+    PostsConfig
+
+-- TYPE MISMATCH ---- G:\poli\an3\SEM1\FP\Elm Project\tests\PostsConfigTests.elm
+
+The 1st argument to `filterPosts` is not what I expect:
+
+55|                         |> Config.filterPosts (Config.PostsConfig 50 10 Config.Title True True)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+This `PostsConfig` call produces:
+
+    String -> Time.Posix -> PostsConfig
+
+But `filterPosts` needs the 1st argument to be:
+
+    PostsConfig
+
+-- TYPE MISMATCH ---- G:\poli\an3\SEM1\FP\Elm Project\tests\PostsConfigTests.elm
+
+The 1st argument to `filterPosts` is not what I expect:
+
+50|                         |> Config.filterPosts (Config.PostsConfig 50 10 Config.None True True)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+This `PostsConfig` call produces:
+
+    String -> Time.Posix -> PostsConfig
+
+But `filterPosts` needs the 1st argument to be:
+
+    PostsConfig
+
+-- TYPE MISMATCH ---- G:\poli\an3\SEM1\FP\Elm Project\tests\PostsConfigTests.elm
+
+The 1st argument to `filterPosts` is not what I expect:
+
+43|                         |> Config.filterPosts (Config.PostsConfig 50 10 Config.None True True)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+This `PostsConfig` call produces:
+
+    String -> Time.Posix -> PostsConfig
+
+But `filterPosts` needs the 1st argument to be:
+
+    PostsConfig
+
+-- TYPE MISMATCH ---- G:\poli\an3\SEM1\FP\Elm Project\tests\PostsConfigTests.elm
+
+The 1st argument to `filterPosts` is not what I expect:
+
+36|                         |> Config.filterPosts (Config.PostsConfig 50 50 Config.None False True)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+This `PostsConfig` call produces:
+
+    String -> Time.Posix -> PostsConfig
+
+But `filterPosts` needs the 1st argument to be:
+
+    PostsConfig
+
+-- TYPE MISMATCH ---- G:\poli\an3\SEM1\FP\Elm Project\tests\PostsConfigTests.elm
+
+The 1st argument to `filterPosts` is not what I expect:
+
+29|                         |> Config.filterPosts (Config.PostsConfig 50 50 Config.None True False)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+This `PostsConfig` call produces:
+
+    String -> Time.Posix -> PostsConfig
+
+But `filterPosts` needs the 1st argument to be:
+
+    PostsConfig
+
+`elm make` failed with exit code 1.
